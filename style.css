@@ -1,4 +1,3 @@
-/* Global rules */
 * {
   margin: 0;
   padding: 0;
@@ -7,9 +6,13 @@
 body {
   font-family: sans-serif;
 }
-/* End rules */
 
-/* Start sidebar */
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+/* start sidebar */
 aside {
   background-color: #f7f7f7;
   font-weight: bold;
@@ -37,4 +40,4 @@ aside a:link {
 aside p {
   margin-bottom: 15px;
 }
-/* End sidebar */
+/* end sidebar */
