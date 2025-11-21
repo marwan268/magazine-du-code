@@ -5,12 +5,14 @@
 
 body {
   font-family: sans-serif;
+  margin: 0;
+  border-top: 10px solid #1098ad;
 }
 
 .container {
   width: 800px;
   margin: auto;
-}
+} 
 
 /* start sidebar */
 aside {
@@ -41,3 +43,42 @@ aside p {
   margin-bottom: 15px;
 }
 /* end sidebar */
+
+.navbar {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 14px;
+    padding: 20px 40px;
+    background: #f7f7f7;
+   
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.logo-area h1 {
+    font-size: 20px;
+    color: #1098ad;
+    font-weight: bold;
+    margin: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #1098ad;
+    margin: 0 15px;
+    font-size: 15px;
+}
+
+.nav-links a:first-child{
+    margin: 0;
+}
+
+.nav-links a:hover {
+    color: #0077aa;
+}
