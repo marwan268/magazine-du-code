@@ -85,6 +85,7 @@ aside p {
 /* end sidebar */
 /* Walid css */
 
+
 img {
     max-width: 100%;
     height: auto;
@@ -96,9 +97,8 @@ a {
 }
 
 button {
-    border: none;
-    background: none;
-    cursor: pointer;
+    right:10%;
+    padding: 12px;
 }
 
 ul, ol {
@@ -139,6 +139,7 @@ ul, ol {
 .bg-blue-primary { background-color: #1098ad; }
 .bg-gray-light { background-color: #f7f7f7; }
 
+
 .text-black { color: #000; }
 .text-gray-medium { color: #777; }
 .text-blue-primary { color: #1098ad; }
@@ -167,6 +168,7 @@ ul, ol {
 .border-gray-light { border-color: #e0e0e0; }
 .border-gray-border { border-color: #f0f0f0; }
 .border-blue-primary { border-color: #1098ad; }
+.border-black{ border-color: #000;}
 
 /* Radius*/
 .rounded-none { border-radius: 0; }
